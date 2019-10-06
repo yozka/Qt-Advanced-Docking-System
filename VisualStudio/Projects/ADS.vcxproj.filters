@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{3653344a-a75c-40dc-9559-83afd3ec2edf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\ads_globals.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockAreaTabBar.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockAreaTitleBar.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockAreaWidget.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockContainerWidget.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockOverlay.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockSplitter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockWidget.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockWidgetTab.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\ElidingLabel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\FloatingDockContainer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\ads_globals.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockAreaTabBar.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockAreaTitleBar.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockAreaWidget.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockContainerWidget.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockManager.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockOverlay.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockSplitter.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockWidget.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\DockWidgetTab.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\ElidingLabel.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\FloatingDockContainer.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\stylesheets\default.css">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\images\close-button.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\images\close-button-disabled.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\ads.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>
