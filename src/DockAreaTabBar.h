@@ -39,6 +39,7 @@ class CDockWidgetTab;
 struct DockAreaTabBarPrivate;
 class CDockAreaTitleBar;
 class CFloatingDockContainer;
+class IFloatingWidget;
 
 /**
  * Custom tabbar implementation for tab area that is shown on top of a
@@ -49,7 +50,7 @@ class CFloatingDockContainer;
  * has not finished. And we need to remove a tab, if the user drags a
  * a dock widget out of a group of tabbed widgets
  */
-class CDockAreaTabBar : public QScrollArea
+class ADS_EXPORT CDockAreaTabBar : public QScrollArea
 {
 	Q_OBJECT
 private:
@@ -95,8 +96,7 @@ protected:
 	/**
 	 * Makes the dock area floating
 	 */
-	CFloatingDockContainer* makeAreaFloating(const QPoint& Offset,
-		eDragState DragState);
+	IFloatingWidget* makeAreaFloating(const QPoint& Offset, eDragState DragState);
 
 
 public:
