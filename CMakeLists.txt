@@ -37,8 +37,11 @@ set(ads_SRCS
     src/DockSplitter.cpp
     src/DockWidget.cpp
     src/DockWidgetTab.cpp
+	src/DockingStateReader.cpp
     src/ElidingLabel.cpp
     src/FloatingDockContainer.cpp
+	src/FloatingOverlay.cpp
+	src/IconProvider.cpp
     src/ads.qrc
     src/linux/FloatingWidgetTitleBar.cpp
 )
@@ -53,8 +56,11 @@ set(ads_INSTALL_INCLUDE
     src/DockSplitter.h
     src/DockWidget.h
     src/DockWidgetTab.h
+	src/DockingStateReader.h
     src/ElidingLabel.h
     src/FloatingDockContainer.h
+	src/FloatingOverlay.h
+	src/IconProvider.h
     src/linux/FloatingWidgetTitleBar.h
 )
 if("${CMAKE_SIZEOF_VOID_P}" STREQUAL "4")
@@ -64,7 +70,7 @@ else()
 endif()
 if(BUILD_STATIC)
     add_library(qtadvanceddocking STATIC ${ads_SRCS})
-    set(ads_COMPILE_DEFINE ${ads_COMPILE_DEFINE} ADS_STATIC)
+    target_compile_definitions(qtadvanceddocking PUBLIC ADS_STATIC)
 else()
     add_library(qtadvanceddocking SHARED ${ads_SRCS})
     set(ads_COMPILE_DEFINE ${ads_COMPILE_DEFINE} ADS_SHARED_EXPORT)
