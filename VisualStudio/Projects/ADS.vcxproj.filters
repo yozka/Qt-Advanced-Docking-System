@@ -60,9 +60,27 @@
     <ClCompile Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\FloatingDockContainer.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\DockingStateReader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\FloatingOverlay.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\IconProvider.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Party\Qt-Advanced-Docking-System\src\ads_globals.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DockingStateReader.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\FloatingOverlay.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\IconProvider.h">
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
